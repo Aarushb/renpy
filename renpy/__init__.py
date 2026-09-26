@@ -410,6 +410,7 @@ def import_all():
     import renpy.ecsign
     import renpy.encryption
     import renpy.execution
+    import renpy.tokenizer
     import renpy.lexer
     import renpy.loadsave
     import renpy.savelocation
@@ -725,7 +726,6 @@ if typing.TYPE_CHECKING:
     from . import gl2 as gl2
     from . import importer as importer
     from . import lexer as lexer
-    from . import lexersupport as lexersupport
     from . import lint as lint
     from . import loader as loader
     from . import loadsave as loadsave
@@ -758,6 +758,7 @@ if typing.TYPE_CHECKING:
     from . import test as test
     from . import text as text
     from . import tfd as tfd
+    from . import tokenizer as tokenizer
     from . import translation as translation
     from . import types as types
     from . import uguu as uguu
